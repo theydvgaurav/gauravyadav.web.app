@@ -17,10 +17,54 @@ nav ul li {
 }
 
 .navbar-nav > li > a {
-    /* margin-right: 0.75rem;
-    margin-left: 0.75rem; */
-        color : #fff !important;
+    margin-right: 0.45rem;
+    margin-left: 0.45rem;
+    color : #fff !important;
+    border-top: 0.1875rem solid rgba(255, 255, 255,0);
 } 
-.navbar-nav > li > a.active , .navbar-nav > li > a.active:focus{
-    border-top: 0.1875rem solid ghostwhite;
+.navbar-nav > li > a:focus{
+    border-top: 0.08rem solid ghostwhite;
 } 
+.navbar-nav > li > a:hover{
+    color: aquamarine !important;
+} 
+.div2{
+    float: right;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.header-wraper{
+    position : relative;
+
+}
+
+.main-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top : 15%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+.typed-text{
+    font-size:  3rem;
+    color: rgb(105, 110, 109);
+    
+}
+
+.tsparticles-canvas-el{
+    position: absolute;
+    height: 100vw;
+    width: 100vw;
+    z-index: 1;
+}
+
