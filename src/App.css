@@ -68,3 +68,15 @@ nav ul li {
     z-index: 1;
 }
 
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top : 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+}
