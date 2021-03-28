@@ -6,7 +6,7 @@ function Home() {
         <div className = "header-wraper">
         <div className = "main-info">
             <Typed className = "typed-text" 
-            strings = {["Network Security" , "Web Development" , "Data Structures and Algorithms"]}
+            strings = {["Web Application Security" , "Data Structures and Algorithms", "Web Development" ]}
             typeSpeed={50}
             backSpeed = {70}
             loop

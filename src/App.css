@@ -56,6 +56,7 @@ nav ul li {
 
 
 
+
 .typed-text{
     font-size:  3rem;
     color: rgb(105, 110, 109);
@@ -87,4 +88,24 @@ nav ul li {
     justify-content: center !important;
     margin: auto;
     padding: 10px;
+}
+
+.social_{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cn_{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top : 8%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-decoration: none;
 }
