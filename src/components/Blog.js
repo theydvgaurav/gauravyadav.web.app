@@ -2,8 +2,8 @@ import React from 'react'
 
 function Blog() {
     return (
-        <div>
-            This is Blog Page
+        <div className="c_d">
+            <h1>Coming Soon...</h1>
         </div>
     )
 }
