@@ -2,8 +2,7 @@
 
 
 body{
-    font-family: "New Tegomin", serif !important;
-}
+    font-family: "New Tegomin", serif !important;}
 
 /******************************* Nav Link *******************************/
 nav a.nav-link{
@@ -38,6 +37,8 @@ nav ul li {
 
 .header-wraper{
     position : relative;
+    
+
 
 }
 
@@ -79,4 +80,11 @@ nav ul li {
     left: 0;
     right: 0;
     text-decoration: none;
+}
+
+.c_d{
+    width:80% !important;
+    justify-content: center !important;
+    margin: auto;
+    padding: 10px;
 }
